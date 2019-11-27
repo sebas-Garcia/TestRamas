@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Modelos;
+namespace App\Modelo;
 
 
 class Computador {

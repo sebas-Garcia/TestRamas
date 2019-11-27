@@ -1,7 +1,5 @@
  <?php
-
-use  App\Modelo\Computador as Computador;
-require ("App\Modelo\Computador.php");
+ require ("App\Modelo\Computador.php");
 
 ?>
  <!doctype html>
@@ -63,8 +61,8 @@ require ("App\Modelo\Computador.php");
                              Computador 1
                          </div>
                          <?php
-                         $Computador=new Computador("Marca","asd","asd","sda");
-                       $Computador->MostrarDatos();
+                         $Computador=new \App\Modelo\Computador("Marca","asd","asd","sda");
+                        $Computador->MostrarDatos();
 
 
                          ?>
