@@ -1,11 +1,11 @@
  <?php
 
-use  App\Modelos\Computador as Computador;
-require ("App\Modelos\Computador.php");
+use  App\Modelo\Computador as Computador;
+require ("App\Modelo\Computador.php");
 
 ?>
  <!doctype html>
- <html lang="en">
+ <html lang= "en">
  <head>
 
      <meta charset="utf-8">
