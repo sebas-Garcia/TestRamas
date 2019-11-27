@@ -4,7 +4,8 @@
 namespace App\Modulo;
 
 
-class Persona{
+class Persona
+{
 
     private $Nombre;
     private $Apellido;
