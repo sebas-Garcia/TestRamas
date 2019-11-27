@@ -22,6 +22,31 @@
 
  <body>
 
+<div class= "container">
+    <div class="row">
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+     <div class="carousel-inner">
+         <div class="carousel-item active">
+             <img src="Imagenes/pc.img" class="d-block w-70%" alt="...">
+         </div>
+         <div class="carousel-item">
+             <img src="Imagenes/pc1.img" class="d-block w-70%" alt="...">
+         </div>
+         <div class="carousel-item">
+             <img src="Imagenes/pc.img" class="d-block w-" alt="...">
+         </div>
+     </div>
+     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+     </a>
+ </div>
+
 
  <!-- Navigation -->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
@@ -57,6 +82,8 @@
              <p class="lead"></p>
              <ul class="list-unstyled">
                  <li>
+
+
                      <div class="card" style="width: 18rem;">
                          <div class="card-header">
                              Computador 1
@@ -64,6 +91,7 @@
                          <?php
                             $Computador=new \App\Modelo\Computador("Marca","asd","asd","sda");
                             $Computador->MostrarDatos();
+                            
                          ?>
                          </ul>
                      </div>
@@ -75,7 +103,8 @@
          </div>
      </div>
  </div>
- 
+
+
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
