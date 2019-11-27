@@ -70,12 +70,15 @@ require ("App\Modelos\Computador.php");
                          ?>
                          </ul>
                      </div>
+
+
                  </li>
 
              </ul>
          </div>
      </div>
  </div>
+ 
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
