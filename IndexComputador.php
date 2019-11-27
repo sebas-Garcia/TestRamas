@@ -62,12 +62,12 @@ require ("App\Modelos\Computador.php");
                          <div class="card-header">
                              Computador 1
                          </div>
-
                          <?php
-                         $Computador=new Computador("Marca","asd","asd","sda")
+                         $Computador=new Computador("Marca","asd","asd","sda");
                        $Computador->MostrarDatos();
 
                          ?>
+                         </ul>
                      </div>
                  </li>
 
