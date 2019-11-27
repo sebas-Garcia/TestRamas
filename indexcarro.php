@@ -7,6 +7,7 @@ require ("App\Modelo\Carro.php");
 <html lang= "en">
 <head>
 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -45,6 +46,31 @@ require ("App\Modelo\Carro.php");
         </div>
     </div>
 </nav>
+
+<div class= "container"
+     <div class="row"
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/1.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carro1.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/bmw.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <!-- Page Content -->
 <div class="container">
