@@ -66,6 +66,7 @@ require ("App\Modelos\Computador.php");
                          $Computador=new Computador("Marca","asd","asd","sda");
                        $Computador->MostrarDatos();
 
+
                          ?>
                          </ul>
                      </div>
