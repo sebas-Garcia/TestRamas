@@ -62,10 +62,8 @@
                              Computador 1
                          </div>
                          <?php
-                         $Computador=new \App\Modelo\Computador("Marca","asd","asd","sda");
-                        $Computador->MostrarDatos();
-
-
+                            $Computador=new \App\Modelo\Computador("Marca","asd","asd","sda");
+                            $Computador->MostrarDatos();
                          ?>
                          </ul>
                      </div>
