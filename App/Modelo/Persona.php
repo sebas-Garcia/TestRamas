@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Modulo;
+namespace App\Modelo;
 
 
 class Persona

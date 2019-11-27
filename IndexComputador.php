@@ -1,4 +1,5 @@
  <?php
+
  require ("App\Modelo\Computador.php");
 
 ?>
